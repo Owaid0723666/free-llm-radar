@@ -1,0 +1,14 @@
+{
+  "name": "free-llm-radar",
+  "version": "0.1.0",
+  "description": "Asks every free LLM API model one short question each day and records which ones answer and how fast.",
+  "type": "module",
+  "bin": { "free-llm-radar": "radar.mjs" },
+  "scripts": {
+    "radar": "node radar.mjs",
+    "test": "node --test"
+  },
+  "engines": { "node": ">=18" },
+  "license": "MIT",
+  "repository": "github:Owaid0723666/free-llm-radar"
+}

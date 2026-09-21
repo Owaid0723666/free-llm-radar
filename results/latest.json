@@ -1,0 +1,115 @@
+{
+  "at": "2026-09-21T05:41:35.326Z",
+  "results": [
+    {
+      "provider": "openrouter",
+      "model": "inclusionai/ling-3.0-flash-vl:free",
+      "ok": true,
+      "ms": 959
+    },
+    {
+      "provider": "openrouter",
+      "model": "nex-agi/nex-n2.5-mini:free",
+      "ok": true,
+      "ms": 314
+    },
+    {
+      "provider": "openrouter",
+      "model": "nex-agi/nex-n2.5-pro:free",
+      "ok": true,
+      "ms": 929
+    },
+    {
+      "provider": "openrouter",
+      "model": "inclusionai/ling-3.0-flash-sante:free",
+      "ok": true,
+      "ms": 922
+    },
+    {
+      "provider": "openrouter",
+      "model": "inclusionai/ling-3.0-flash-fin:free",
+      "ok": true,
+      "ms": 1147
+    },
+    {
+      "provider": "openrouter",
+      "model": "qwen/qwen3.8-27b:free",
+      "ok": false,
+      "ms": 300,
+      "error": "HTTP 429"
+    },
+    {
+      "provider": "gemini",
+      "model": "gemini-3-flash-preview",
+      "ok": true,
+      "ms": 1838
+    },
+    {
+      "provider": "gemini",
+      "model": "gemini-3.1-flash-lite",
+      "ok": true,
+      "ms": 1634
+    },
+    {
+      "provider": "mistral",
+      "model": "ministral-8b-latest",
+      "ok": true,
+      "ms": 1071
+    },
+    {
+      "provider": "mistral",
+      "model": "ministral-3b-latest",
+      "ok": true,
+      "ms": 528
+    },
+    {
+      "provider": "mistral",
+      "model": "codestral-2508",
+      "ok": true,
+      "ms": 521
+    },
+    {
+      "provider": "cloudflare",
+      "model": "@cf/openai/gpt-oss-120b",
+      "ok": true,
+      "ms": 1565
+    },
+    {
+      "provider": "cloudflare",
+      "model": "@cf/meta/llama-4-scout-17b-16e-instruct",
+      "ok": true,
+      "ms": 499
+    },
+    {
+      "provider": "cloudflare",
+      "model": "@cf/qwen/qwen2.5-coder-32b-instruct",
+      "ok": true,
+      "ms": 635
+    },
+    {
+      "provider": "nvidia",
+      "model": "nvidia/nemotron-3-super-120b-a12b",
+      "ok": true,
+      "ms": 922
+    },
+    {
+      "provider": "nvidia",
+      "model": "nvidia/nemotron-3.5-lightning-30b-a3b",
+      "ok": true,
+      "ms": 5817
+    },
+    {
+      "provider": "nvidia",
+      "model": "mistralai/mistral-nemotron",
+      "ok": false,
+      "ms": 45005,
+      "error": "timeout"
+    },
+    {
+      "provider": "nvidia",
+      "model": "openai/gpt-oss-20b",
+      "ok": true,
+      "ms": 3190
+    }
+  ]
+}

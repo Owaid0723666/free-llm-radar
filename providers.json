@@ -1,0 +1,68 @@
+[
+  {
+    "id": "openrouter",
+    "name": "OpenRouter",
+    "site": "https://openrouter.ai",
+    "base": "https://openrouter.ai/api/v1",
+    "keyEnv": "OPENROUTER_API_KEY",
+    "discover": "free-suffix",
+    "max": 6,
+    "note": "Free models end in :free. Without $10 of credit an account gets 50 free requests a day."
+  },
+  {
+    "id": "gemini",
+    "name": "Google Gemini API",
+    "site": "https://ai.google.dev",
+    "base": "https://generativelanguage.googleapis.com/v1beta/openai",
+    "keyEnv": "GEMINI_API_KEY",
+    "models": ["gemini-3-flash-preview", "gemini-3.1-flash-lite"],
+    "note": "Free tier through Google AI Studio. Not offered for apps serving users in the EEA, Switzerland or the UK."
+  },
+  {
+    "id": "mistral",
+    "name": "Mistral",
+    "site": "https://mistral.ai",
+    "base": "https://api.mistral.ai/v1",
+    "keyEnv": "MISTRAL_API_KEY",
+    "models": ["ministral-8b-latest", "ministral-3b-latest", "codestral-2508"],
+    "note": "Free experiment plan with a monthly allowance. Only the small models answer on it."
+  },
+  {
+    "id": "cloudflare",
+    "name": "Cloudflare Workers AI",
+    "site": "https://developers.cloudflare.com/workers-ai/",
+    "base": "https://api.cloudflare.com/client/v4/accounts/${CLOUDFLARE_ACCOUNT_ID}/ai/v1",
+    "keyEnv": "CLOUDFLARE_API_KEY",
+    "models": ["@cf/openai/gpt-oss-120b", "@cf/meta/llama-4-scout-17b-16e-instruct", "@cf/qwen/qwen2.5-coder-32b-instruct"],
+    "note": "10,000 free neurons a day per account."
+  },
+  {
+    "id": "nvidia",
+    "name": "NVIDIA NIM",
+    "site": "https://build.nvidia.com",
+    "base": "https://integrate.api.nvidia.com/v1",
+    "keyEnv": "NVIDIA_API_KEY",
+    "models": ["nvidia/nemotron-3-super-120b-a12b", "nvidia/nemotron-3.5-lightning-30b-a3b", "mistralai/mistral-nemotron", "openai/gpt-oss-20b"],
+    "note": "Free for prototyping and research; production use needs a licence."
+  },
+  {
+    "id": "groq",
+    "name": "Groq",
+    "site": "https://groq.com",
+    "base": "https://api.groq.com/openai/v1",
+    "keyEnv": "GROQ_API_KEY",
+    "discover": "all",
+    "skip": ["whisper", "guard", "tts", "orpheus", "distil"],
+    "max": 8,
+    "note": "Free tier with per-model daily limits."
+  },
+  {
+    "id": "onomeo",
+    "name": "onomeo",
+    "site": "https://onomeo.com",
+    "base": "https://onomeo.com/v1",
+    "keyEnv": "ONOMEO_API_KEY",
+    "models": ["deepseek-v4-flash", "ministral-8b-latest", "@cf/openai/gpt-oss-120b", "gemini-3.1-flash-lite", "nvidia/nemotron-3-super-120b-a12b"],
+    "note": "Free credits by daily check-in, spent per character. Maintained by the same person as this repo."
+  }
+]
