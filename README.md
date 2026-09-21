@@ -7,28 +7,33 @@ Free LLM API tiers change every week: models appear, get renamed, start returnin
 ## Today
 
 <!-- radar:start -->
-Last run: 2026-09-21 05:41 UTC. 16 of 18 models answered.
+Last run: 2026-09-21 05:44 UTC. 18 of 23 models answered.
 
 | Provider | Model | Latest | Time | Last 7 runs |
 | --- | --- | --- | ---: | ---: |
-| OpenRouter | `nex-agi/nex-n2.5-mini:free` | answered | 0.3s | 1/1 |
-| OpenRouter | `inclusionai/ling-3.0-flash-sante:free` | answered | 0.9s | 1/1 |
-| OpenRouter | `nex-agi/nex-n2.5-pro:free` | answered | 0.9s | 1/1 |
-| OpenRouter | `inclusionai/ling-3.0-flash-vl:free` | answered | 1.0s | 1/1 |
-| OpenRouter | `inclusionai/ling-3.0-flash-fin:free` | answered | 1.1s | 1/1 |
+| OpenRouter | `inclusionai/ling-3.0-flash-fin:free` | answered | 0.5s | 1/1 |
+| OpenRouter | `nex-agi/nex-n2.5-mini:free` | answered | 0.6s | 1/1 |
+| OpenRouter | `inclusionai/ling-3.0-flash-sante:free` | answered | 0.6s | 1/1 |
+| OpenRouter | `inclusionai/ling-3.0-flash-vl:free` | answered | 0.6s | 1/1 |
 | OpenRouter | `qwen/qwen3.8-27b:free` | failed (HTTP 429) | — | 0/1 |
-| Google Gemini API | `gemini-3.1-flash-lite` | answered | 1.6s | 1/1 |
-| Google Gemini API | `gemini-3-flash-preview` | answered | 1.8s | 1/1 |
-| Mistral | `codestral-2508` | answered | 0.5s | 1/1 |
-| Mistral | `ministral-3b-latest` | answered | 0.5s | 1/1 |
-| Mistral | `ministral-8b-latest` | answered | 1.1s | 1/1 |
-| Cloudflare Workers AI | `@cf/meta/llama-4-scout-17b-16e-instruct` | answered | 0.5s | 1/1 |
-| Cloudflare Workers AI | `@cf/qwen/qwen2.5-coder-32b-instruct` | answered | 0.6s | 1/1 |
-| Cloudflare Workers AI | `@cf/openai/gpt-oss-120b` | answered | 1.6s | 1/1 |
-| NVIDIA NIM | `nvidia/nemotron-3-super-120b-a12b` | answered | 0.9s | 1/1 |
-| NVIDIA NIM | `openai/gpt-oss-20b` | answered | 3.2s | 1/1 |
-| NVIDIA NIM | `nvidia/nemotron-3.5-lightning-30b-a3b` | answered | 5.8s | 1/1 |
+| OpenRouter | `nex-agi/nex-n2.5-pro:free` | failed (empty reply) | — | 0/1 |
+| Google Gemini API | `gemini-3-flash-preview` | answered | 0.7s | 1/1 |
+| Google Gemini API | `gemini-3.1-flash-lite` | answered | 2.4s | 1/1 |
+| Mistral | `ministral-3b-latest` | answered | 0.3s | 1/1 |
+| Mistral | `codestral-2508` | answered | 0.3s | 1/1 |
+| Mistral | `ministral-8b-latest` | answered | 0.8s | 1/1 |
+| Cloudflare Workers AI | `@cf/meta/llama-4-scout-17b-16e-instruct` | answered | 0.2s | 1/1 |
+| Cloudflare Workers AI | `@cf/qwen/qwen2.5-coder-32b-instruct` | answered | 0.2s | 1/1 |
+| Cloudflare Workers AI | `@cf/openai/gpt-oss-120b` | answered | 0.8s | 1/1 |
+| NVIDIA NIM | `openai/gpt-oss-20b` | answered | 1.5s | 1/1 |
+| NVIDIA NIM | `nvidia/nemotron-3-super-120b-a12b` | answered | 2.0s | 1/1 |
 | NVIDIA NIM | `mistralai/mistral-nemotron` | failed (timeout) | — | 0/1 |
+| NVIDIA NIM | `nvidia/nemotron-3.5-lightning-30b-a3b` | failed (timeout) | — | 0/1 |
+| onomeo | `ministral-8b-latest` | answered | 0.5s | 1/1 |
+| onomeo | `@cf/openai/gpt-oss-120b` | answered | 1.1s | 1/1 |
+| onomeo | `deepseek-v4-flash` | answered | 2.7s | 1/1 |
+| onomeo | `nvidia/nemotron-3-super-120b-a12b` | answered | 5.0s | 1/1 |
+| onomeo | `gemini-3.1-flash-lite` | failed (timeout) | — | 0/1 |
 <!-- radar:end -->
 
 "Latest" is today's run. "Last 7 runs" counts the days the model answered. A model that failed once is not necessarily gone: free tiers often return 429 when they are busy.
