@@ -25,12 +25,20 @@ export function fillBase(base, env) {
   return missing ? null : out;
 }
 
-/* Which models to ask. A fixed list is used as given; otherwise the provider's /models list is read:
+/* Which models to ask. A fixed list loses the models the provider's /models list no longer names (retired
+   or renamed), so a model that is gone drops out instead of failing every day; ids are compared without a
+   leading "models/" (Gemini writes them that way), and a list that names none of them, or none at all, is
+   not trusted and the fixed list is used as given. Otherwise the provider's list is read:
    "free-suffix" keeps ids ending in ":free" (newest first when the list says when each was added),
    "all" keeps everything except ids containing one of `skip`. At most `max` either way. */
 export function pickModels(provider, listed = []) {
   const max = provider.max || 10;
-  if (Array.isArray(provider.models)) return provider.models.slice(0, max);
+  if (Array.isArray(provider.models)) {
+    const bare = (id) => String(id).replace(/^models\//, '');
+    const named = new Set(listed.filter((m) => m && typeof m.id === 'string').map((m) => bare(m.id)));
+    const kept = provider.models.filter((id) => named.has(bare(id)));
+    return (kept.length ? kept : provider.models).slice(0, max);
+  }
   const skip = (provider.skip || []).map((s) => s.toLowerCase());
   let rows = listed.filter((m) => m && typeof m.id === 'string');
   if (provider.discover === 'free-suffix') rows = rows.filter((m) => m.id.endsWith(':free'));
@@ -130,7 +138,9 @@ async function runProvider(provider, env, fetchImpl) {
   if (!key || !base) return { skipped: true, rows: [] };
   let models;
   try {
-    models = pickModels(provider, provider.models ? [] : await listModels(provider, base, key, fetchImpl));
+    /* a fixed list still reads the provider's list to drop retired models; if that list cannot be read, the fixed one stands */
+    const listed = provider.models ? await listModels(provider, base, key, fetchImpl).catch(() => []) : await listModels(provider, base, key, fetchImpl);
+    models = pickModels(provider, listed);
   } catch (error) {
     console.error(`[${provider.id}] could not list models: ${error.message}`);
     return { skipped: false, rows: [] };

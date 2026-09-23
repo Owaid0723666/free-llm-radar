@@ -18,6 +18,13 @@ test('pickModels: fixed list as given; discovery keeps :free (newest first) or d
   assert.deepEqual(pickModels({ discover: 'all', skip: ['whisper'] }, [{ id: 'whisper-1' }, { id: 'llama' }]), ['llama']);
 });
 
+test('pickModels: a fixed list drops what the provider stopped listing, unless the list names none of it', () => {
+  const fixed = { models: ['a', 'gone', 'b'] };
+  assert.deepEqual(pickModels(fixed, [{ id: 'a' }, { id: 'models/b' }, { id: 'extra' }]), ['a', 'b'], 'retired model left out, "models/" prefix ignored');
+  assert.deepEqual(pickModels(fixed, [{ id: 'other' }]), ['a', 'gone', 'b'], 'a list naming none of them is not trusted');
+  assert.deepEqual(pickModels(fixed, []), ['a', 'gone', 'b'], 'no list: used as given');
+});
+
 const reply = (status, body) => async () => ({ ok: status < 400, status, json: async () => body });
 
 test('probe: text or reasoning text counts as an answer; an empty reply or an HTTP error does not', async () => {
