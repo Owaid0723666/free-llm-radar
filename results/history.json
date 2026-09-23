@@ -13,7 +13,7 @@
     {
       "d": "2026-09-23",
       "ok": true,
-      "ms": 1662
+      "ms": 1287
     }
   ],
   "openrouter/nex-agi/nex-n2.5-mini:free": [
@@ -30,7 +30,7 @@
     {
       "d": "2026-09-23",
       "ok": true,
-      "ms": 774
+      "ms": 1654
     }
   ],
   "openrouter/nex-agi/nex-n2.5-pro:free": [
@@ -47,7 +47,7 @@
     {
       "d": "2026-09-23",
       "ok": true,
-      "ms": 13007
+      "ms": 2463
     }
   ],
   "openrouter/inclusionai/ling-3.0-flash-sante:free": [
@@ -64,7 +64,7 @@
     {
       "d": "2026-09-23",
       "ok": true,
-      "ms": 574
+      "ms": 602
     }
   ],
   "openrouter/inclusionai/ling-3.0-flash-fin:free": [
@@ -81,7 +81,7 @@
     {
       "d": "2026-09-23",
       "ok": true,
-      "ms": 1580
+      "ms": 552
     }
   ],
   "openrouter/qwen/qwen3.8-27b:free": [
@@ -98,7 +98,7 @@
     {
       "d": "2026-09-23",
       "ok": false,
-      "ms": 94
+      "ms": 70
     }
   ],
   "gemini/gemini-3-flash-preview": [
@@ -115,7 +115,7 @@
     {
       "d": "2026-09-23",
       "ok": true,
-      "ms": 937
+      "ms": 866
     }
   ],
   "gemini/gemini-3.1-flash-lite": [
@@ -132,7 +132,7 @@
     {
       "d": "2026-09-23",
       "ok": true,
-      "ms": 3632
+      "ms": 5438
     }
   ],
   "mistral/ministral-8b-latest": [
@@ -149,7 +149,7 @@
     {
       "d": "2026-09-23",
       "ok": true,
-      "ms": 530
+      "ms": 293
     }
   ],
   "mistral/ministral-3b-latest": [
@@ -166,7 +166,7 @@
     {
       "d": "2026-09-23",
       "ok": true,
-      "ms": 328
+      "ms": 312
     }
   ],
   "mistral/codestral-2508": [
@@ -183,7 +183,7 @@
     {
       "d": "2026-09-23",
       "ok": true,
-      "ms": 327
+      "ms": 300
     }
   ],
   "cloudflare/@cf/openai/gpt-oss-120b": [
@@ -200,7 +200,7 @@
     {
       "d": "2026-09-23",
       "ok": true,
-      "ms": 1113
+      "ms": 1005
     }
   ],
   "cloudflare/@cf/meta/llama-4-scout-17b-16e-instruct": [
@@ -217,7 +217,7 @@
     {
       "d": "2026-09-23",
       "ok": true,
-      "ms": 293
+      "ms": 405
     }
   ],
   "cloudflare/@cf/qwen/qwen2.5-coder-32b-instruct": [
@@ -234,7 +234,7 @@
     {
       "d": "2026-09-23",
       "ok": true,
-      "ms": 274
+      "ms": 149
     }
   ],
   "nvidia/nvidia/nemotron-3-super-120b-a12b": [
@@ -251,7 +251,7 @@
     {
       "d": "2026-09-23",
       "ok": true,
-      "ms": 612
+      "ms": 780
     }
   ],
   "nvidia/nvidia/nemotron-3.5-lightning-30b-a3b": [
@@ -268,7 +268,7 @@
     {
       "d": "2026-09-23",
       "ok": true,
-      "ms": 23927
+      "ms": 671
     }
   ],
   "nvidia/mistralai/mistral-nemotron": [
@@ -284,8 +284,8 @@
     },
     {
       "d": "2026-09-23",
-      "ok": true,
-      "ms": 41297
+      "ok": false,
+      "ms": 45001
     }
   ],
   "nvidia/openai/gpt-oss-20b": [
@@ -301,8 +301,8 @@
     },
     {
       "d": "2026-09-23",
-      "ok": false,
-      "ms": 45001
+      "ok": true,
+      "ms": 9183
     }
   ],
   "onomeo/deepseek-v4-flash": [
@@ -319,7 +319,7 @@
     {
       "d": "2026-09-23",
       "ok": true,
-      "ms": 1791
+      "ms": 2622
     }
   ],
   "onomeo/ministral-8b-latest": [
@@ -353,7 +353,7 @@
     {
       "d": "2026-09-23",
       "ok": true,
-      "ms": 1137
+      "ms": 1209
     }
   ],
   "onomeo/gemini-3.1-flash-lite": [
@@ -370,7 +370,7 @@
     {
       "d": "2026-09-23",
       "ok": true,
-      "ms": 4627
+      "ms": 2009
     }
   ],
   "onomeo/nvidia/nemotron-3-super-120b-a12b": [
@@ -387,7 +387,14 @@
     {
       "d": "2026-09-23",
       "ok": true,
-      "ms": 1239
+      "ms": 872
+    }
+  ],
+  "onomeo/codestral-latest": [
+    {
+      "d": "2026-09-23",
+      "ok": true,
+      "ms": 688
     }
   ]
 }
