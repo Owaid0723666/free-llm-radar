@@ -7,33 +7,33 @@
 ## 今天
 
 <!-- radar:start -->
-最近一次：2026-09-23 10:51 UTC。23 个模型里 21 个能用。
+最近一次：2026-09-24 07:35 UTC。23 个模型里 13 个能用。
 
 | 服务商 | 模型 | 最近一次 | 用时 | 最近 7 次 |
 | --- | --- | --- | ---: | ---: |
-| OpenRouter | `inclusionai/ling-3.0-flash-fin:free` | 能用 | 0.6s | 3/3 |
-| OpenRouter | `inclusionai/ling-3.0-flash-sante:free` | 能用 | 0.6s | 3/3 |
-| OpenRouter | `inclusionai/ling-3.0-flash-vl:free` | 能用 | 1.3s | 3/3 |
-| OpenRouter | `nex-agi/nex-n2.5-mini:free` | 能用 | 1.7s | 3/3 |
-| OpenRouter | `nex-agi/nex-n2.5-pro:free` | 能用 | 2.5s | 2/3 |
-| OpenRouter | `qwen/qwen3.8-27b:free` | 失败 (HTTP 429) | — | 0/3 |
-| Google Gemini API | `gemini-3-flash-preview` | 能用 | 0.9s | 3/3 |
-| Google Gemini API | `gemini-3.1-flash-lite` | 能用 | 5.4s | 3/3 |
-| Mistral | `ministral-8b-latest` | 能用 | 0.3s | 3/3 |
-| Mistral | `codestral-2508` | 能用 | 0.3s | 3/3 |
-| Mistral | `ministral-3b-latest` | 能用 | 0.3s | 3/3 |
-| Cloudflare Workers AI | `@cf/qwen/qwen2.5-coder-32b-instruct` | 能用 | 0.1s | 3/3 |
-| Cloudflare Workers AI | `@cf/meta/llama-4-scout-17b-16e-instruct` | 能用 | 0.4s | 3/3 |
-| Cloudflare Workers AI | `@cf/openai/gpt-oss-120b` | 能用 | 1.0s | 3/3 |
-| NVIDIA NIM | `nvidia/nemotron-3.5-lightning-30b-a3b` | 能用 | 0.7s | 2/3 |
-| NVIDIA NIM | `nvidia/nemotron-3-super-120b-a12b` | 能用 | 0.8s | 2/3 |
-| NVIDIA NIM | `openai/gpt-oss-20b` | 能用 | 9.2s | 3/3 |
-| NVIDIA NIM | `mistralai/mistral-nemotron` | 失败 (timeout) | — | 0/3 |
-| onomeo | `codestral-latest` | 能用 | 0.7s | 1/1 |
-| onomeo | `nvidia/nemotron-3-super-120b-a12b` | 能用 | 0.9s | 3/3 |
-| onomeo | `@cf/openai/gpt-oss-120b` | 能用 | 1.2s | 3/3 |
-| onomeo | `gemini-3.1-flash-lite` | 能用 | 2.0s | 2/3 |
-| onomeo | `deepseek-v4-flash` | 能用 | 2.6s | 3/3 |
+| OpenRouter | `dots-studio/dots-3-note-preview:free` | 能用 | 0.5s | 1/1 |
+| OpenRouter | `inclusionai/ling-3.0-flash-fin:free` | 能用 | 0.5s | 4/4 |
+| OpenRouter | `inclusionai/ling-3.0-flash-sante:free` | 能用 | 0.6s | 4/4 |
+| OpenRouter | `nex-agi/nex-n2.5-mini:free` | 能用 | 1.2s | 4/4 |
+| OpenRouter | `qwen/qwen3.8-27b:free` | 失败 (HTTP 429) | — | 0/4 |
+| OpenRouter | `nex-agi/nex-n2.5-pro:free` | 失败 (timeout) | — | 2/4 |
+| Google Gemini API | `gemini-3-flash-preview` | 能用 | 0.8s | 4/4 |
+| Google Gemini API | `gemini-3.1-flash-lite` | 能用 | 2.3s | 4/4 |
+| Mistral | `codestral-2508` | 能用 | 0.3s | 4/4 |
+| Mistral | `ministral-8b-latest` | 能用 | 0.4s | 4/4 |
+| Mistral | `ministral-3b-latest` | 能用 | 0.4s | 4/4 |
+| Cloudflare Workers AI | `@cf/qwen/qwen2.5-coder-32b-instruct` | 能用 | 0.2s | 4/4 |
+| Cloudflare Workers AI | `@cf/meta/llama-4-scout-17b-16e-instruct` | 能用 | 0.3s | 4/4 |
+| Cloudflare Workers AI | `@cf/openai/gpt-oss-120b` | 能用 | 0.8s | 4/4 |
+| NVIDIA NIM | `nvidia/nemotron-3.5-lightning-30b-a3b` | 能用 | 1.2s | 3/4 |
+| NVIDIA NIM | `nvidia/nemotron-3-super-120b-a12b` | 失败 (HTTP 503) | — | 2/4 |
+| NVIDIA NIM | `mistralai/mistral-nemotron` | 失败 (timeout) | — | 0/4 |
+| NVIDIA NIM | `openai/gpt-oss-20b` | 失败 (timeout) | — | 3/4 |
+| onomeo | `gemini-3.1-flash-lite` | 失败 (HTTP 401) | — | 2/4 |
+| onomeo | `nvidia/nemotron-3-super-120b-a12b` | 失败 (HTTP 401) | — | 3/4 |
+| onomeo | `@cf/openai/gpt-oss-120b` | 失败 (HTTP 401) | — | 3/4 |
+| onomeo | `codestral-latest` | 失败 (HTTP 401) | — | 1/2 |
+| onomeo | `deepseek-v4-flash` | 失败 (HTTP 401) | — | 3/4 |
 <!-- radar:end -->
 
 「最近一次」是今天这次的结果；「最近 7 次」是其中答上来的天数。失败一次不代表模型没了：免费档繁忙时常会回 429。
