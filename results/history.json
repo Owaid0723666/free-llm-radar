@@ -36,6 +36,11 @@
       "d": "2026-09-24",
       "ok": true,
       "ms": 1194
+    },
+    {
+      "d": "2026-09-25",
+      "ok": true,
+      "ms": 427
     }
   ],
   "openrouter/nex-agi/nex-n2.5-pro:free": [
@@ -58,6 +63,11 @@
       "d": "2026-09-24",
       "ok": false,
       "ms": 45001
+    },
+    {
+      "d": "2026-09-25",
+      "ok": true,
+      "ms": 1553
     }
   ],
   "openrouter/inclusionai/ling-3.0-flash-sante:free": [
@@ -80,6 +90,11 @@
       "d": "2026-09-24",
       "ok": true,
       "ms": 616
+    },
+    {
+      "d": "2026-09-25",
+      "ok": true,
+      "ms": 646
     }
   ],
   "openrouter/inclusionai/ling-3.0-flash-fin:free": [
@@ -102,6 +117,11 @@
       "d": "2026-09-24",
       "ok": true,
       "ms": 549
+    },
+    {
+      "d": "2026-09-25",
+      "ok": true,
+      "ms": 508
     }
   ],
   "openrouter/qwen/qwen3.8-27b:free": [
@@ -124,6 +144,11 @@
       "d": "2026-09-24",
       "ok": false,
       "ms": 67
+    },
+    {
+      "d": "2026-09-25",
+      "ok": false,
+      "ms": 65
     }
   ],
   "gemini/gemini-3-flash-preview": [
@@ -146,6 +171,11 @@
       "d": "2026-09-24",
       "ok": true,
       "ms": 750
+    },
+    {
+      "d": "2026-09-25",
+      "ok": true,
+      "ms": 811
     }
   ],
   "gemini/gemini-3.1-flash-lite": [
@@ -168,6 +198,11 @@
       "d": "2026-09-24",
       "ok": true,
       "ms": 2273
+    },
+    {
+      "d": "2026-09-25",
+      "ok": true,
+      "ms": 1122
     }
   ],
   "mistral/ministral-8b-latest": [
@@ -190,6 +225,11 @@
       "d": "2026-09-24",
       "ok": true,
       "ms": 393
+    },
+    {
+      "d": "2026-09-25",
+      "ok": true,
+      "ms": 302
     }
   ],
   "mistral/ministral-3b-latest": [
@@ -212,6 +252,11 @@
       "d": "2026-09-24",
       "ok": true,
       "ms": 396
+    },
+    {
+      "d": "2026-09-25",
+      "ok": true,
+      "ms": 302
     }
   ],
   "mistral/codestral-2508": [
@@ -234,6 +279,11 @@
       "d": "2026-09-24",
       "ok": true,
       "ms": 276
+    },
+    {
+      "d": "2026-09-25",
+      "ok": true,
+      "ms": 331
     }
   ],
   "cloudflare/@cf/openai/gpt-oss-120b": [
@@ -256,6 +306,11 @@
       "d": "2026-09-24",
       "ok": true,
       "ms": 781
+    },
+    {
+      "d": "2026-09-25",
+      "ok": true,
+      "ms": 986
     }
   ],
   "cloudflare/@cf/meta/llama-4-scout-17b-16e-instruct": [
@@ -278,6 +333,11 @@
       "d": "2026-09-24",
       "ok": true,
       "ms": 271
+    },
+    {
+      "d": "2026-09-25",
+      "ok": true,
+      "ms": 586
     }
   ],
   "cloudflare/@cf/qwen/qwen2.5-coder-32b-instruct": [
@@ -300,6 +360,11 @@
       "d": "2026-09-24",
       "ok": true,
       "ms": 165
+    },
+    {
+      "d": "2026-09-25",
+      "ok": true,
+      "ms": 253
     }
   ],
   "nvidia/nvidia/nemotron-3-super-120b-a12b": [
@@ -322,6 +387,11 @@
       "d": "2026-09-24",
       "ok": false,
       "ms": 303
+    },
+    {
+      "d": "2026-09-25",
+      "ok": false,
+      "ms": 223
     }
   ],
   "nvidia/nvidia/nemotron-3.5-lightning-30b-a3b": [
@@ -344,6 +414,11 @@
       "d": "2026-09-24",
       "ok": true,
       "ms": 1242
+    },
+    {
+      "d": "2026-09-25",
+      "ok": true,
+      "ms": 10511
     }
   ],
   "nvidia/mistralai/mistral-nemotron": [
@@ -366,6 +441,11 @@
       "d": "2026-09-24",
       "ok": false,
       "ms": 45001
+    },
+    {
+      "d": "2026-09-25",
+      "ok": false,
+      "ms": 45000
     }
   ],
   "nvidia/openai/gpt-oss-20b": [
@@ -388,6 +468,11 @@
       "d": "2026-09-24",
       "ok": false,
       "ms": 45001
+    },
+    {
+      "d": "2026-09-25",
+      "ok": true,
+      "ms": 2754
     }
   ],
   "onomeo/deepseek-v4-flash": [
@@ -410,6 +495,11 @@
       "d": "2026-09-24",
       "ok": false,
       "ms": 111
+    },
+    {
+      "d": "2026-09-25",
+      "ok": false,
+      "ms": 146
     }
   ],
   "onomeo/ministral-8b-latest": [
@@ -449,6 +539,11 @@
       "d": "2026-09-24",
       "ok": false,
       "ms": 96
+    },
+    {
+      "d": "2026-09-25",
+      "ok": false,
+      "ms": 84
     }
   ],
   "onomeo/gemini-3.1-flash-lite": [
@@ -471,6 +566,11 @@
       "d": "2026-09-24",
       "ok": false,
       "ms": 62
+    },
+    {
+      "d": "2026-09-25",
+      "ok": false,
+      "ms": 84
     }
   ],
   "onomeo/nvidia/nemotron-3-super-120b-a12b": [
@@ -493,6 +593,11 @@
       "d": "2026-09-24",
       "ok": false,
       "ms": 63
+    },
+    {
+      "d": "2026-09-25",
+      "ok": false,
+      "ms": 156
     }
   ],
   "onomeo/codestral-latest": [
@@ -505,6 +610,11 @@
       "d": "2026-09-24",
       "ok": false,
       "ms": 98
+    },
+    {
+      "d": "2026-09-25",
+      "ok": false,
+      "ms": 95
     }
   ],
   "openrouter/dots-studio/dots-3-note-preview:free": [
@@ -512,6 +622,11 @@
       "d": "2026-09-24",
       "ok": true,
       "ms": 526
+    },
+    {
+      "d": "2026-09-25",
+      "ok": true,
+      "ms": 507
     }
   ]
 }
