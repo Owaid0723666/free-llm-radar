@@ -7,31 +7,31 @@ Free LLM API tiers change every week: models appear, get renamed, start returnin
 ## Today
 
 <!-- radar:start -->
-Last run: 2026-10-03 08:06 UTC. 16 of 22 models answered.
+Last run: 2026-10-04 08:26 UTC. 17 of 22 models answered.
 
 | Provider | Model | Latest | Time | Last 7 runs |
 | --- | --- | --- | ---: | ---: |
-| OpenRouter | `liquid/lfm-2.5-2.6b:free` | answered | 0.3s | 6/7 |
-| OpenRouter | `qwen/qwen3.8-27b:free` | answered | 0.3s | 2/7 |
+| OpenRouter | `qwen/qwen3.8-27b:free` | answered | 0.2s | 3/7 |
+| OpenRouter | `nvidia/nemotron-3.5-lightning:free` | answered | 0.4s | 3/7 |
 | OpenRouter | `dots-studio/dots-3-note-preview:free` | answered | 0.5s | 7/7 |
-| OpenRouter | `apodex/apodex-1.1-mini:free` | answered | 0.7s | 2/2 |
-| OpenRouter | `inclusionai/ling-3.0-flash-sante:free` | answered | 0.9s | 7/7 |
-| OpenRouter | `nvidia/nemotron-3.5-lightning:free` | failed (empty reply) | — | 3/7 |
-| Google Gemini API | `gemini-3.1-flash-lite` | answered | 0.3s | 7/7 |
-| Google Gemini API | `gemini-3-flash-preview` | answered | 0.7s | 6/7 |
+| OpenRouter | `apodex/apodex-1.1-mini:free` | answered | 0.8s | 3/3 |
+| OpenRouter | `inclusionai/ling-3.0-flash-sante:free` | answered | 1.0s | 7/7 |
+| OpenRouter | `liquid/lfm-2.5-2.6b:free` | answered | 1.2s | 6/7 |
+| Google Gemini API | `gemini-3.1-flash-lite` | answered | 0.5s | 7/7 |
+| Google Gemini API | `gemini-3-flash-preview` | answered | 0.9s | 6/7 |
 | Mistral | `codestral-2508` | answered | 0.3s | 7/7 |
 | Mistral | `ministral-3b-latest` | answered | 0.3s | 7/7 |
 | Mistral | `ministral-8b-latest` | answered | 0.4s | 7/7 |
+| Cloudflare Workers AI | `@cf/qwen/qwen2.5-coder-32b-instruct` | answered | 0.2s | 6/7 |
 | Cloudflare Workers AI | `@cf/meta/llama-4-scout-17b-16e-instruct` | answered | 0.3s | 6/7 |
-| Cloudflare Workers AI | `@cf/qwen/qwen2.5-coder-32b-instruct` | answered | 0.5s | 6/7 |
-| Cloudflare Workers AI | `@cf/openai/gpt-oss-120b` | answered | 0.7s | 6/7 |
-| NVIDIA NIM | `openai/gpt-oss-20b` | answered | 0.4s | 7/7 |
-| NVIDIA NIM | `nvidia/nemotron-3-super-120b-a12b` | answered | 0.5s | 6/7 |
-| NVIDIA NIM | `nvidia/nemotron-3.5-lightning-30b-a3b` | answered | 6.4s | 5/7 |
-| onomeo | `gemini-3.1-flash-lite` | failed (HTTP 401) | — | 0/7 |
-| onomeo | `codestral-latest` | failed (HTTP 401) | — | 0/7 |
-| onomeo | `@cf/openai/gpt-oss-120b` | failed (HTTP 401) | — | 0/7 |
+| Cloudflare Workers AI | `@cf/openai/gpt-oss-120b` | answered | 0.8s | 6/7 |
+| NVIDIA NIM | `nvidia/nemotron-3-super-120b-a12b` | answered | 0.6s | 6/7 |
+| NVIDIA NIM | `nvidia/nemotron-3.5-lightning-30b-a3b` | answered | 0.9s | 5/7 |
+| NVIDIA NIM | `openai/gpt-oss-20b` | answered | 0.9s | 7/7 |
 | onomeo | `nvidia/nemotron-3-super-120b-a12b` | failed (HTTP 401) | — | 0/7 |
+| onomeo | `gemini-3.1-flash-lite` | failed (HTTP 401) | — | 0/7 |
+| onomeo | `@cf/openai/gpt-oss-120b` | failed (HTTP 401) | — | 0/7 |
+| onomeo | `codestral-latest` | failed (HTTP 401) | — | 0/7 |
 | onomeo | `deepseek-v4-flash` | failed (HTTP 401) | — | 0/7 |
 <!-- radar:end -->
 

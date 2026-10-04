@@ -135,6 +135,11 @@
       "d": "2026-10-03",
       "ok": true,
       "ms": 901
+    },
+    {
+      "d": "2026-10-04",
+      "ok": true,
+      "ms": 978
     }
   ],
   "openrouter/inclusionai/ling-3.0-flash-fin:free": [
@@ -244,6 +249,11 @@
       "d": "2026-10-03",
       "ok": true,
       "ms": 345
+    },
+    {
+      "d": "2026-10-04",
+      "ok": true,
+      "ms": 227
     }
   ],
   "gemini/gemini-3-flash-preview": [
@@ -311,6 +321,11 @@
       "d": "2026-10-03",
       "ok": true,
       "ms": 734
+    },
+    {
+      "d": "2026-10-04",
+      "ok": true,
+      "ms": 876
     }
   ],
   "gemini/gemini-3.1-flash-lite": [
@@ -378,6 +393,11 @@
       "d": "2026-10-03",
       "ok": true,
       "ms": 307
+    },
+    {
+      "d": "2026-10-04",
+      "ok": true,
+      "ms": 520
     }
   ],
   "mistral/ministral-8b-latest": [
@@ -445,6 +465,11 @@
       "d": "2026-10-03",
       "ok": true,
       "ms": 354
+    },
+    {
+      "d": "2026-10-04",
+      "ok": true,
+      "ms": 370
     }
   ],
   "mistral/ministral-3b-latest": [
@@ -512,6 +537,11 @@
       "d": "2026-10-03",
       "ok": true,
       "ms": 330
+    },
+    {
+      "d": "2026-10-04",
+      "ok": true,
+      "ms": 319
     }
   ],
   "mistral/codestral-2508": [
@@ -577,6 +607,11 @@
     },
     {
       "d": "2026-10-03",
+      "ok": true,
+      "ms": 301
+    },
+    {
+      "d": "2026-10-04",
       "ok": true,
       "ms": 301
     }
@@ -646,6 +681,11 @@
       "d": "2026-10-03",
       "ok": true,
       "ms": 667
+    },
+    {
+      "d": "2026-10-04",
+      "ok": true,
+      "ms": 758
     }
   ],
   "cloudflare/@cf/meta/llama-4-scout-17b-16e-instruct": [
@@ -713,6 +753,11 @@
       "d": "2026-10-03",
       "ok": true,
       "ms": 267
+    },
+    {
+      "d": "2026-10-04",
+      "ok": true,
+      "ms": 316
     }
   ],
   "cloudflare/@cf/qwen/qwen2.5-coder-32b-instruct": [
@@ -780,6 +825,11 @@
       "d": "2026-10-03",
       "ok": true,
       "ms": 524
+    },
+    {
+      "d": "2026-10-04",
+      "ok": true,
+      "ms": 176
     }
   ],
   "nvidia/nvidia/nemotron-3-super-120b-a12b": [
@@ -847,6 +897,11 @@
       "d": "2026-10-03",
       "ok": true,
       "ms": 537
+    },
+    {
+      "d": "2026-10-04",
+      "ok": true,
+      "ms": 580
     }
   ],
   "nvidia/nvidia/nemotron-3.5-lightning-30b-a3b": [
@@ -914,6 +969,11 @@
       "d": "2026-10-03",
       "ok": true,
       "ms": 6392
+    },
+    {
+      "d": "2026-10-04",
+      "ok": true,
+      "ms": 866
     }
   ],
   "nvidia/mistralai/mistral-nemotron": [
@@ -1018,6 +1078,11 @@
       "d": "2026-10-03",
       "ok": true,
       "ms": 431
+    },
+    {
+      "d": "2026-10-04",
+      "ok": true,
+      "ms": 886
     }
   ],
   "onomeo/deepseek-v4-flash": [
@@ -1085,6 +1150,11 @@
       "d": "2026-10-03",
       "ok": false,
       "ms": 172
+    },
+    {
+      "d": "2026-10-04",
+      "ok": false,
+      "ms": 77
     }
   ],
   "onomeo/ministral-8b-latest": [
@@ -1169,6 +1239,11 @@
       "d": "2026-10-03",
       "ok": false,
       "ms": 75
+    },
+    {
+      "d": "2026-10-04",
+      "ok": false,
+      "ms": 31
     }
   ],
   "onomeo/gemini-3.1-flash-lite": [
@@ -1236,6 +1311,11 @@
       "d": "2026-10-03",
       "ok": false,
       "ms": 65
+    },
+    {
+      "d": "2026-10-04",
+      "ok": false,
+      "ms": 29
     }
   ],
   "onomeo/nvidia/nemotron-3-super-120b-a12b": [
@@ -1303,6 +1383,11 @@
       "d": "2026-10-03",
       "ok": false,
       "ms": 87
+    },
+    {
+      "d": "2026-10-04",
+      "ok": false,
+      "ms": 28
     }
   ],
   "onomeo/codestral-latest": [
@@ -1360,6 +1445,11 @@
       "d": "2026-10-03",
       "ok": false,
       "ms": 68
+    },
+    {
+      "d": "2026-10-04",
+      "ok": false,
+      "ms": 33
     }
   ],
   "openrouter/dots-studio/dots-3-note-preview:free": [
@@ -1412,6 +1502,11 @@
       "d": "2026-10-03",
       "ok": true,
       "ms": 499
+    },
+    {
+      "d": "2026-10-04",
+      "ok": true,
+      "ms": 454
     }
   ],
   "openrouter/liquid/lfm-2.5-2.6b:free": [
@@ -1454,6 +1549,11 @@
       "d": "2026-10-03",
       "ok": true,
       "ms": 284
+    },
+    {
+      "d": "2026-10-04",
+      "ok": true,
+      "ms": 1168
     }
   ],
   "openrouter/nvidia/nemotron-3.5-lightning:free": [
@@ -1496,6 +1596,11 @@
       "d": "2026-10-03",
       "ok": false,
       "ms": 76
+    },
+    {
+      "d": "2026-10-04",
+      "ok": true,
+      "ms": 390
     }
   ],
   "openrouter/thinkingmachines/inkling-small:free": [
@@ -1525,6 +1630,11 @@
       "d": "2026-10-03",
       "ok": true,
       "ms": 688
+    },
+    {
+      "d": "2026-10-04",
+      "ok": true,
+      "ms": 758
     }
   ]
 }
