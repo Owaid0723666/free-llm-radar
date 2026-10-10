@@ -47,7 +47,7 @@ Last run: 2026-10-10 08:29 UTC. 15 of 22 models answered.
 | [Cloudflare Workers AI](https://developers.cloudflare.com/workers-ai/) | 3 text models | 10,000 free neurons a day |
 | [NVIDIA NIM](https://build.nvidia.com) | 4 models | free for prototyping and research |
 | [Groq](https://groq.com) | up to 8 chat models from its model list | per-model daily limits (skipped here until a key is added) |
-| [onomeo](https://onomeo.com) | 5 low-cost models | free credits by daily check-in, spent per character |
+| [onomeo](https://onomeo.com) | 5 free models | 30 free calls per 5 hours per account, refilled automatically |
 
 The exact model ids are in [providers.json](providers.json). Each question is `Reply with the single word: OK` with `max_tokens` 32. Nothing else is sent, and only pass/fail, the time taken and the HTTP status are kept.
 

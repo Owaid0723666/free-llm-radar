@@ -47,7 +47,7 @@
 | [Cloudflare Workers AI](https://developers.cloudflare.com/workers-ai/) | 3 个文字模型 | 每天 10,000 个免费 neurons |
 | [NVIDIA NIM](https://build.nvidia.com) | 4 个模型 | 可免费用于原型开发与研究 |
 | [Groq](https://groq.com) | 模型列表里最多 8 个对话模型 | 按模型设每日上限（配好密钥之前暂不测试） |
-| [onomeo](https://onomeo.com) | 5 个低消耗模型 | 每日签到领取免费额度，按字数扣除 |
+| [onomeo](https://onomeo.com) | 5 个免费模型 | 每个账号每 5 小时 30 次免费调用，自动恢复 |
 
 具体模型名见 [providers.json](providers.json)。每次提问的内容是 `Reply with the single word: OK`，`max_tokens` 为 32，不发送其他内容，只保留是否成功、用时和 HTTP 状态码。
 
