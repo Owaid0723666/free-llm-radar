@@ -325,7 +325,7 @@
     {
       "d": "2026-10-10",
       "ok": true,
-      "ms": 801
+      "ms": 741
     }
   ],
   "gemini/gemini-3.1-flash-lite": [
@@ -397,7 +397,7 @@
     {
       "d": "2026-10-10",
       "ok": true,
-      "ms": 19645
+      "ms": 525
     }
   ],
   "mistral/ministral-8b-latest": [
@@ -469,7 +469,7 @@
     {
       "d": "2026-10-10",
       "ok": true,
-      "ms": 308
+      "ms": 367
     }
   ],
   "mistral/ministral-3b-latest": [
@@ -541,7 +541,7 @@
     {
       "d": "2026-10-10",
       "ok": true,
-      "ms": 391
+      "ms": 738
     }
   ],
   "mistral/codestral-2508": [
@@ -613,7 +613,7 @@
     {
       "d": "2026-10-10",
       "ok": true,
-      "ms": 331
+      "ms": 333
     }
   ],
   "cloudflare/@cf/openai/gpt-oss-120b": [
@@ -685,7 +685,7 @@
     {
       "d": "2026-10-10",
       "ok": true,
-      "ms": 583
+      "ms": 917
     }
   ],
   "cloudflare/@cf/meta/llama-4-scout-17b-16e-instruct": [
@@ -757,7 +757,7 @@
     {
       "d": "2026-10-10",
       "ok": true,
-      "ms": 318
+      "ms": 345
     }
   ],
   "cloudflare/@cf/qwen/qwen2.5-coder-32b-instruct": [
@@ -829,7 +829,7 @@
     {
       "d": "2026-10-10",
       "ok": true,
-      "ms": 358
+      "ms": 362
     }
   ],
   "nvidia/nvidia/nemotron-3-super-120b-a12b": [
@@ -901,7 +901,7 @@
     {
       "d": "2026-10-10",
       "ok": true,
-      "ms": 513
+      "ms": 430
     }
   ],
   "nvidia/nvidia/nemotron-3.5-lightning-30b-a3b": [
@@ -973,7 +973,7 @@
     {
       "d": "2026-10-10",
       "ok": true,
-      "ms": 2353
+      "ms": 934
     }
   ],
   "nvidia/mistralai/mistral-nemotron": [
@@ -1082,7 +1082,7 @@
     {
       "d": "2026-10-10",
       "ok": true,
-      "ms": 1078
+      "ms": 2527
     }
   ],
   "onomeo/deepseek-v4-flash": [
@@ -1153,8 +1153,8 @@
     },
     {
       "d": "2026-10-10",
-      "ok": false,
-      "ms": 127
+      "ok": true,
+      "ms": 2704
     }
   ],
   "onomeo/ministral-8b-latest": [
@@ -1314,8 +1314,8 @@
     },
     {
       "d": "2026-10-10",
-      "ok": false,
-      "ms": 94
+      "ok": true,
+      "ms": 605
     }
   ],
   "onomeo/nvidia/nemotron-3-super-120b-a12b": [
@@ -1458,8 +1458,8 @@
     },
     {
       "d": "2026-10-10",
-      "ok": false,
-      "ms": 86
+      "ok": true,
+      "ms": 507
     }
   ],
   "openrouter/dots-studio/dots-3-note-preview:free": [
@@ -1531,7 +1531,7 @@
     {
       "d": "2026-10-10",
       "ok": true,
-      "ms": 3131
+      "ms": 3051
     }
   ],
   "openrouter/liquid/lfm-2.5-2.6b:free": [
@@ -1603,7 +1603,7 @@
     {
       "d": "2026-10-10",
       "ok": true,
-      "ms": 279
+      "ms": 904
     }
   ],
   "openrouter/nvidia/nemotron-3.5-lightning:free": [
@@ -1675,7 +1675,7 @@
     {
       "d": "2026-10-10",
       "ok": true,
-      "ms": 210
+      "ms": 174
     }
   ],
   "openrouter/thinkingmachines/inkling-small:free": [
@@ -1717,7 +1717,7 @@
     {
       "d": "2026-10-10",
       "ok": false,
-      "ms": 56
+      "ms": 37
     }
   ],
   "openrouter/apodex/apodex-1.1-mini:free": [
@@ -1764,7 +1764,7 @@
     {
       "d": "2026-10-10",
       "ok": true,
-      "ms": 639
+      "ms": 624
     }
   ],
   "openrouter/poolside/laguna-s-2.1:free": [
@@ -1776,7 +1776,21 @@
     {
       "d": "2026-10-10",
       "ok": false,
-      "ms": 141
+      "ms": 118
+    }
+  ],
+  "onomeo/glm-5.2": [
+    {
+      "d": "2026-10-10",
+      "ok": true,
+      "ms": 1861
+    }
+  ],
+  "onomeo/gpt-oss-20b": [
+    {
+      "d": "2026-10-10",
+      "ok": true,
+      "ms": 1201
     }
   ]
 }
