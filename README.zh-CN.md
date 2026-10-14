@@ -7,31 +7,31 @@
 ## 今天
 
 <!-- radar:start -->
-最近一次：2026-10-13 09:25 UTC。21 个模型里 20 个能用。
+最近一次：2026-10-14 07:37 UTC。21 个模型里 18 个能用。
 
 | 服务商 | 模型 | 最近一次 | 用时 | 最近 7 次 |
 | --- | --- | --- | ---: | ---: |
-| OpenRouter | `nvidia/nemotron-3.5-lightning:free` | 能用 | 0.1s | 7/7 |
-| OpenRouter | `liquid/lfm-2.5-2.6b:free` | 能用 | 0.2s | 7/7 |
-| OpenRouter | `apodex/apodex-1.1-mini:free` | 能用 | 0.6s | 7/7 |
-| OpenRouter | `poolside/laguna-s-2.1:free` | 能用 | 0.7s | 2/5 |
-| OpenRouter | `dots-studio/dots-3-note-preview:free` | 能用 | 3.1s | 7/7 |
+| OpenRouter | `nvidia/nemotron-3.5-lightning:free` | 能用 | 0.0s | 7/7 |
+| OpenRouter | `liquid/lfm-2.5-2.6b:free` | 能用 | 0.1s | 7/7 |
+| OpenRouter | `dots-studio/dots-3-note-preview:free` | 能用 | 0.6s | 7/7 |
+| OpenRouter | `thinkingmachines/inkling:free` | 失败 (HTTP 403) | — | 0/1 |
 | OpenRouter | `thinkingmachines/inkling-small:free` | 失败 (HTTP 403) | — | 0/7 |
-| Google Gemini API | `gemini-3.1-flash-lite` | 能用 | 3.1s | 6/7 |
-| Google Gemini API | `gemini-3-flash-preview` | 能用 | 14.6s | 6/7 |
+| OpenRouter | `poolside/laguna-s-2.1:free` | 失败 (HTTP 429) | — | 2/6 |
+| Google Gemini API | `gemini-3.1-flash-lite` | 能用 | 0.6s | 6/7 |
+| Google Gemini API | `gemini-3-flash-preview` | 能用 | 1.0s | 7/7 |
+| Mistral | `ministral-3b-latest` | 能用 | 0.3s | 7/7 |
 | Mistral | `codestral-2508` | 能用 | 0.3s | 7/7 |
 | Mistral | `ministral-8b-latest` | 能用 | 0.4s | 7/7 |
-| Mistral | `ministral-3b-latest` | 能用 | 0.4s | 7/7 |
 | Cloudflare Workers AI | `@cf/qwen/qwen2.5-coder-32b-instruct` | 能用 | 0.2s | 7/7 |
 | Cloudflare Workers AI | `@cf/meta/llama-4-scout-17b-16e-instruct` | 能用 | 0.5s | 7/7 |
-| Cloudflare Workers AI | `@cf/openai/gpt-oss-120b` | 能用 | 0.6s | 7/7 |
-| NVIDIA NIM | `nvidia/nemotron-3-super-120b-a12b` | 能用 | 0.5s | 7/7 |
-| NVIDIA NIM | `nvidia/nemotron-3.5-lightning-30b-a3b` | 能用 | 0.5s | 7/7 |
-| NVIDIA NIM | `openai/gpt-oss-20b` | 能用 | 2.1s | 7/7 |
-| onomeo | `codestral-latest` | 能用 | 0.7s | 4/7 |
-| onomeo | `gemini-3.1-flash-lite` | 能用 | 2.3s | 3/7 |
-| onomeo | `glm-5.2` | 能用 | 3.8s | 4/4 |
-| onomeo | `gpt-oss-20b` | 能用 | 42.5s | 4/4 |
+| Cloudflare Workers AI | `@cf/openai/gpt-oss-120b` | 能用 | 1.2s | 7/7 |
+| NVIDIA NIM | `nvidia/nemotron-3.5-lightning-30b-a3b` | 能用 | 0.3s | 7/7 |
+| NVIDIA NIM | `openai/gpt-oss-20b` | 能用 | 0.5s | 7/7 |
+| NVIDIA NIM | `nvidia/nemotron-3-super-120b-a12b` | 能用 | 0.7s | 7/7 |
+| onomeo | `gpt-oss-20b` | 能用 | 0.8s | 5/5 |
+| onomeo | `gemini-3.1-flash-lite` | 能用 | 0.8s | 4/7 |
+| onomeo | `codestral-latest` | 能用 | 0.9s | 5/7 |
+| onomeo | `glm-5.2` | 能用 | 3.3s | 5/5 |
 <!-- radar:end -->
 
 「最近一次」是今天这次的结果；「最近 7 次」是其中答上来的天数。失败一次不代表模型没了：免费档繁忙时常会回 429。
