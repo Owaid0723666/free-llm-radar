@@ -1,140 +1,138 @@
 {
-  "at": "2026-10-15T07:26:37.746Z",
+  "at": "2026-10-16T07:09:14.063Z",
   "results": [
+    {
+      "provider": "openrouter",
+      "model": "nvidia/nemotron-3.5-super-vl:free",
+      "ok": true,
+      "ms": 293
+    },
     {
       "provider": "openrouter",
       "model": "dots-studio/dots-3-note-preview:free",
       "ok": true,
-      "ms": 641
+      "ms": 566
     },
     {
       "provider": "openrouter",
       "model": "liquid/lfm-2.5-2.6b:free",
       "ok": true,
-      "ms": 166
+      "ms": 271
     },
     {
       "provider": "openrouter",
       "model": "nvidia/nemotron-3.5-lightning:free",
       "ok": true,
-      "ms": 50
+      "ms": 94
     },
     {
       "provider": "openrouter",
       "model": "thinkingmachines/inkling-small:free",
       "ok": false,
-      "ms": 32,
+      "ms": 25,
       "error": "HTTP 403"
     },
     {
       "provider": "openrouter",
       "model": "poolside/laguna-s-2.1:free",
-      "ok": false,
-      "ms": 92,
-      "error": "HTTP 429"
-    },
-    {
-      "provider": "openrouter",
-      "model": "thinkingmachines/inkling:free",
-      "ok": false,
-      "ms": 19,
-      "error": "HTTP 403"
+      "ok": true,
+      "ms": 1572
     },
     {
       "provider": "gemini",
       "model": "gemini-3-flash-preview",
       "ok": true,
-      "ms": 909
+      "ms": 699
     },
     {
       "provider": "gemini",
       "model": "gemini-3.1-flash-lite",
       "ok": true,
-      "ms": 683
+      "ms": 2264
     },
     {
       "provider": "mistral",
       "model": "ministral-8b-latest",
       "ok": true,
-      "ms": 381
+      "ms": 324
     },
     {
       "provider": "mistral",
       "model": "ministral-3b-latest",
       "ok": true,
-      "ms": 288
+      "ms": 412
     },
     {
       "provider": "mistral",
       "model": "codestral-2508",
       "ok": true,
-      "ms": 254
+      "ms": 284
     },
     {
       "provider": "cloudflare",
       "model": "@cf/openai/gpt-oss-120b",
       "ok": true,
-      "ms": 629
+      "ms": 434
     },
     {
       "provider": "cloudflare",
       "model": "@cf/meta/llama-4-scout-17b-16e-instruct",
       "ok": true,
-      "ms": 527
+      "ms": 512
     },
     {
       "provider": "cloudflare",
       "model": "@cf/qwen/qwen2.5-coder-32b-instruct",
       "ok": true,
-      "ms": 235
+      "ms": 276
     },
     {
       "provider": "nvidia",
       "model": "nvidia/nemotron-3-super-120b-a12b",
       "ok": true,
-      "ms": 1392
+      "ms": 1545
     },
     {
       "provider": "nvidia",
       "model": "nvidia/nemotron-3.5-lightning-30b-a3b",
       "ok": true,
-      "ms": 309
+      "ms": 6828
     },
     {
       "provider": "nvidia",
       "model": "openai/gpt-oss-20b",
       "ok": true,
-      "ms": 327
+      "ms": 888
     },
     {
       "provider": "onomeo",
       "model": "deepseek-v4-flash",
       "ok": true,
-      "ms": 2989
+      "ms": 2390
     },
     {
       "provider": "onomeo",
       "model": "glm-5.2",
       "ok": true,
-      "ms": 2833
+      "ms": 2186
     },
     {
       "provider": "onomeo",
       "model": "gemini-3.1-flash-lite",
       "ok": true,
-      "ms": 643
+      "ms": 3071
     },
     {
       "provider": "onomeo",
       "model": "codestral-latest",
       "ok": true,
-      "ms": 1345
+      "ms": 886
     },
     {
       "provider": "onomeo",
       "model": "gpt-oss-20b",
       "ok": true,
-      "ms": 1232
+      "ms": 696
     }
   ]
 }
