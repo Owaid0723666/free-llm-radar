@@ -1,143 +1,137 @@
 {
-  "at": "2026-10-27T07:51:24.446Z",
+  "at": "2026-10-28T08:31:42.188Z",
   "results": [
     {
       "provider": "openrouter",
       "model": "recursive/flint-v1.0:free",
       "ok": false,
-      "ms": 57,
+      "ms": 99,
       "error": "HTTP 401"
     },
     {
       "provider": "openrouter",
       "model": "xingchen-agi/xing4.0-29b-a4b:free",
       "ok": false,
-      "ms": 23,
+      "ms": 52,
       "error": "HTTP 401"
     },
     {
       "provider": "openrouter",
       "model": "nvidia/nemotron-3.5-super-vl:free",
       "ok": false,
-      "ms": 14,
+      "ms": 23,
       "error": "HTTP 401"
     },
     {
       "provider": "openrouter",
       "model": "dots-studio/dots-3-note-preview:free",
       "ok": false,
-      "ms": 13,
+      "ms": 27,
       "error": "HTTP 401"
     },
     {
       "provider": "openrouter",
       "model": "liquid/lfm-2.5-2.6b:free",
       "ok": false,
-      "ms": 13,
+      "ms": 21,
       "error": "HTTP 401"
     },
     {
       "provider": "openrouter",
       "model": "nvidia/nemotron-3.5-lightning:free",
       "ok": false,
-      "ms": 14,
+      "ms": 23,
       "error": "HTTP 401"
     },
     {
       "provider": "gemini",
       "model": "gemini-3-flash-preview",
       "ok": true,
-      "ms": 809
+      "ms": 824
     },
     {
       "provider": "gemini",
       "model": "gemini-3.1-flash-lite",
       "ok": true,
-      "ms": 1897
+      "ms": 4834
     },
     {
       "provider": "mistral",
       "model": "ministral-8b-latest",
       "ok": true,
-      "ms": 348
+      "ms": 420
     },
     {
       "provider": "mistral",
       "model": "ministral-3b-latest",
       "ok": true,
-      "ms": 277
+      "ms": 1214
     },
     {
       "provider": "mistral",
       "model": "codestral-2508",
       "ok": true,
-      "ms": 546
+      "ms": 324
     },
     {
       "provider": "cloudflare",
       "model": "@cf/openai/gpt-oss-120b",
       "ok": false,
-      "ms": 46,
+      "ms": 64,
       "error": "HTTP 401"
     },
     {
       "provider": "cloudflare",
       "model": "@cf/meta/llama-4-scout-17b-16e-instruct",
       "ok": false,
-      "ms": 26,
+      "ms": 36,
       "error": "HTTP 401"
     },
     {
       "provider": "cloudflare",
       "model": "@cf/qwen/qwen2.5-coder-32b-instruct",
       "ok": false,
-      "ms": 24,
+      "ms": 36,
       "error": "HTTP 401"
     },
     {
       "provider": "nvidia",
       "model": "nvidia/nemotron-3-super-120b-a12b",
       "ok": false,
-      "ms": 50,
+      "ms": 136,
       "error": "HTTP 403"
     },
     {
       "provider": "nvidia",
       "model": "nvidia/nemotron-3.5-lightning-30b-a3b",
       "ok": false,
-      "ms": 30,
+      "ms": 58,
       "error": "HTTP 403"
     },
     {
       "provider": "nvidia",
       "model": "openai/gpt-oss-20b",
       "ok": false,
-      "ms": 28,
+      "ms": 61,
       "error": "HTTP 403"
     },
     {
       "provider": "onomeo",
       "model": "deepseek-v4-flash",
       "ok": true,
-      "ms": 2533
+      "ms": 1864
     },
     {
       "provider": "onomeo",
       "model": "gemini-3.1-flash-lite",
       "ok": true,
-      "ms": 1020
+      "ms": 2083
     },
     {
       "provider": "onomeo",
       "model": "codestral-latest",
       "ok": true,
-      "ms": 1017
-    },
-    {
-      "provider": "onomeo",
-      "model": "gpt-oss-20b",
-      "ok": true,
-      "ms": 6702
+      "ms": 572
     }
   ]
 }
