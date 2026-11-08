@@ -7,31 +7,31 @@ Free LLM API tiers change every week: models appear, get renamed, start returnin
 ## Today
 
 <!-- radar:start -->
-Last run: 2026-11-07 08:46 UTC. 5 of 22 models answered.
+Last run: 2026-11-08 08:58 UTC. 4 of 22 models answered.
 
 | Provider | Model | Latest | Time | Last 7 runs |
 | --- | --- | --- | ---: | ---: |
+| OpenRouter | `dots-studio/dots-3-note-preview:free` | failed (HTTP 401) | — | 0/7 |
 | OpenRouter | `xingchen-agi/xing4.0-29b-a4b:free` | failed (HTTP 401) | — | 0/7 |
 | OpenRouter | `nvidia/nemotron-3.5-super-vl:free` | failed (HTTP 401) | — | 0/7 |
-| OpenRouter | `dots-studio/dots-3-note-preview:free` | failed (HTTP 401) | — | 0/7 |
-| OpenRouter | `liquid/lfm-2.5-2.6b:free` | failed (HTTP 401) | — | 0/7 |
 | OpenRouter | `recursive/flint-v1.0:free` | failed (HTTP 401) | — | 0/7 |
-| OpenRouter | `liquid/lfm-3-1.7b:free` | failed (HTTP 401) | — | 0/1 |
-| Google Gemini API | `gemini-3.1-flash-lite` | answered | 0.5s | 5/7 |
-| Google Gemini API | `gemini-3-flash-preview` | answered | 0.8s | 7/7 |
-| Mistral | `codestral-2508` | answered | 0.3s | 7/7 |
-| Mistral | `ministral-3b-latest` | answered | 0.4s | 7/7 |
-| Mistral | `ministral-8b-latest` | answered | 0.4s | 7/7 |
+| OpenRouter | `liquid/lfm-2.5-2.6b:free` | failed (HTTP 401) | — | 0/7 |
+| OpenRouter | `liquid/lfm-3-1.7b:free` | failed (HTTP 401) | — | 0/2 |
+| Google Gemini API | `gemini-3.1-flash-lite` | answered | 0.6s | 5/7 |
+| Google Gemini API | `gemini-3-flash-preview` | failed (empty reply) | — | 6/7 |
+| Mistral | `ministral-3b-latest` | answered | 0.3s | 7/7 |
+| Mistral | `ministral-8b-latest` | answered | 0.3s | 7/7 |
+| Mistral | `codestral-2508` | answered | 0.4s | 7/7 |
 | Cloudflare Workers AI | `@cf/qwen/qwen2.5-coder-32b-instruct` | failed (HTTP 401) | — | 0/7 |
 | Cloudflare Workers AI | `@cf/meta/llama-4-scout-17b-16e-instruct` | failed (HTTP 401) | — | 0/7 |
 | Cloudflare Workers AI | `@cf/openai/gpt-oss-120b` | failed (HTTP 401) | — | 0/7 |
-| NVIDIA NIM | `nvidia/nemotron-3.5-lightning-30b-a3b` | failed (HTTP 403) | — | 0/7 |
 | NVIDIA NIM | `openai/gpt-oss-20b` | failed (HTTP 403) | — | 0/7 |
+| NVIDIA NIM | `nvidia/nemotron-3.5-lightning-30b-a3b` | failed (HTTP 403) | — | 0/7 |
 | NVIDIA NIM | `nvidia/nemotron-3-super-120b-a12b` | failed (HTTP 403) | — | 0/7 |
-| onomeo | `gemini-3.1-flash-lite` | failed (HTTP 400) | — | 0/7 |
+| onomeo | `codestral-latest` | failed (HTTP 400) | — | 0/7 |
 | onomeo | `deepseek-v4-flash` | failed (HTTP 400) | — | 0/7 |
 | onomeo | `gpt-oss-20b` | failed (HTTP 400) | — | 0/7 |
-| onomeo | `codestral-latest` | failed (HTTP 400) | — | 0/7 |
+| onomeo | `gemini-3.1-flash-lite` | failed (HTTP 400) | — | 0/7 |
 | onomeo | `glm-5.2` | failed (HTTP 400) | — | 0/7 |
 <!-- radar:end -->
 
