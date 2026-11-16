@@ -7,28 +7,27 @@ Free LLM API tiers change every week: models appear, get renamed, start returnin
 ## Today
 
 <!-- radar:start -->
-Last run: 2026-11-15 09:25 UTC. 5 of 18 models answered.
+Last run: 2026-11-16 09:42 UTC. 5 of 17 models answered.
 
 | Provider | Model | Latest | Time | Last 7 runs |
 | --- | --- | --- | ---: | ---: |
-| OpenRouter | `recursive/flint-v1.0:free` | failed (HTTP 401) | — | 0/7 |
-| OpenRouter | `inclusionai/ling-3.2-flash:free` | failed (HTTP 401) | — | 0/2 |
-| OpenRouter | `thinkingmachines/inkling-2-small:free` | failed (HTTP 401) | — | 0/6 |
-| OpenRouter | `baidu/ernie-5.5-flash-preview:free` | failed (HTTP 401) | — | 0/5 |
-| OpenRouter | `particle-ai/particle-1:free` | failed (HTTP 401) | — | 0/3 |
+| OpenRouter | `inclusionai/ling-3.2-flash:free` | failed (HTTP 401) | — | 0/3 |
+| OpenRouter | `thinkingmachines/inkling-2-small:free` | failed (HTTP 401) | — | 0/7 |
+| OpenRouter | `particle-ai/particle-1:free` | failed (HTTP 401) | — | 0/4 |
 | OpenRouter | `liquid/lfm-3-1.7b:free` | failed (HTTP 401) | — | 0/7 |
-| Google Gemini API | `gemini-3.1-flash-lite` | answered | 7.2s | 7/7 |
+| OpenRouter | `recursive/flint-v1.0:free` | failed (HTTP 401) | — | 0/7 |
+| OpenRouter | `baidu/ernie-5.5-flash-preview:free` | failed (HTTP 401) | — | 0/6 |
+| Google Gemini API | `gemini-3.1-flash-lite` | answered | 0.7s | 7/7 |
 | Google Gemini API | `gemini-3-flash-preview` | failed (empty reply) | — | 0/7 |
+| Mistral | `codestral-2508` | answered | 0.3s | 7/7 |
+| Mistral | `ministral-8b-latest` | answered | 0.4s | 7/7 |
 | Mistral | `ministral-3b-latest` | answered | 0.4s | 7/7 |
-| Mistral | `codestral-2508` | answered | 0.4s | 7/7 |
-| Mistral | `ministral-8b-latest` | answered | 0.6s | 7/7 |
 | Cloudflare Workers AI | `@cf/qwen/qwen2.5-coder-32b-instruct` | failed (HTTP 401) | — | 0/7 |
 | Cloudflare Workers AI | `@cf/meta/llama-4-scout-17b-16e-instruct` | failed (HTTP 401) | — | 0/7 |
 | Cloudflare Workers AI | `@cf/openai/gpt-oss-120b` | failed (HTTP 401) | — | 0/7 |
-| NVIDIA NIM | `nvidia/nemotron-3.5-lightning-30b-a3b` | failed (HTTP 403) | — | 0/7 |
 | NVIDIA NIM | `openai/gpt-oss-20b` | failed (HTTP 403) | — | 0/7 |
-| NVIDIA NIM | `nvidia/nemotron-3-super-120b-a12b` | failed (HTTP 403) | — | 0/7 |
-| onomeo | `glm-5.2` | answered | 4.9s | 1/7 |
+| NVIDIA NIM | `nvidia/nemotron-3.5-lightning-30b-a3b` | failed (HTTP 403) | — | 0/7 |
+| onomeo | `glm-5.2` | answered | 3.2s | 2/7 |
 <!-- radar:end -->
 
 "Latest" is today's run. "Last 7 runs" counts the days the model answered. A model that failed once is not necessarily gone: free tiers often return 429 when they are busy.
