@@ -7,29 +7,29 @@
 ## 今天
 
 <!-- radar:start -->
-最近一次：2026-11-21 09:49 UTC。20 个模型里 8 个能用。
+最近一次：2026-11-22 09:45 UTC。20 个模型里 8 个能用。
 
 | 服务商 | 模型 | 最近一次 | 用时 | 最近 7 次 |
 | --- | --- | --- | ---: | ---: |
-| OpenRouter | `recursive/flint-v1.0:free` | 失败 (HTTP 401) | — | 0/7 |
-| OpenRouter | `liquid/lfm-3-1.7b:free` | 失败 (HTTP 401) | — | 0/7 |
 | OpenRouter | `particle-ai/particle-1:free` | 失败 (HTTP 401) | — | 0/7 |
-| OpenRouter | `inclusionai/ling-3.2-flash:free` | 失败 (HTTP 401) | — | 0/7 |
+| OpenRouter | `recursive/flint-v1.0:free` | 失败 (HTTP 401) | — | 0/7 |
 | OpenRouter | `nvidia/nemotron-3.5-super-vl:free` | 失败 (HTTP 401) | — | 0/7 |
+| OpenRouter | `inclusionai/ling-3.2-flash:free` | 失败 (HTTP 401) | — | 0/7 |
 | OpenRouter | `baidu/ernie-5.5-flash-preview:free` | 失败 (HTTP 401) | — | 0/7 |
-| Google Gemini API | `gemini-3.1-flash-lite` | 能用 | 3.4s | 7/7 |
+| OpenRouter | `liquid/lfm-3-1.7b:free` | 失败 (HTTP 401) | — | 0/7 |
+| Google Gemini API | `gemini-3.1-flash-lite` | 能用 | 0.5s | 7/7 |
 | Google Gemini API | `gemini-3-flash-preview` | 失败 (empty reply) | — | 0/7 |
-| Mistral | `ministral-3b-latest` | 能用 | 0.3s | 7/7 |
 | Mistral | `codestral-2508` | 能用 | 0.3s | 7/7 |
-| Mistral | `ministral-8b-latest` | 能用 | 5.9s | 7/7 |
-| Cloudflare Workers AI | `@cf/qwen/qwen2.5-coder-32b-instruct` | 失败 (HTTP 401) | — | 0/7 |
+| Mistral | `ministral-8b-latest` | 能用 | 0.3s | 7/7 |
+| Mistral | `ministral-3b-latest` | 能用 | 0.3s | 7/7 |
 | Cloudflare Workers AI | `@cf/meta/llama-4-scout-17b-16e-instruct` | 失败 (HTTP 401) | — | 0/7 |
+| Cloudflare Workers AI | `@cf/qwen/qwen2.5-coder-32b-instruct` | 失败 (HTTP 401) | — | 0/7 |
 | Cloudflare Workers AI | `@cf/openai/gpt-oss-120b` | 失败 (HTTP 401) | — | 0/7 |
 | NVIDIA NIM | `nvidia/nemotron-3.5-lightning-30b-a3b` | 失败 (HTTP 403) | — | 0/7 |
-| onomeo | `gpt-oss-20b` | 能用 | 0.7s | 2/7 |
-| onomeo | `codestral-latest` | 能用 | 0.8s | 2/7 |
-| onomeo | `gemini-3.1-flash-lite` | 能用 | 2.7s | 2/7 |
-| onomeo | `glm-5.2` | 能用 | 6.0s | 5/7 |
+| onomeo | `gemini-3.1-flash-lite` | 能用 | 3.9s | 3/7 |
+| onomeo | `gpt-oss-20b` | 能用 | 4.7s | 3/7 |
+| onomeo | `glm-5.2` | 能用 | 5.6s | 5/7 |
+| onomeo | `codestral-latest` | 能用 | 12.1s | 3/7 |
 | onomeo | `deepseek-v4-flash` | 失败 (HTTP 429) | — | 1/7 |
 <!-- radar:end -->
 
