@@ -7,30 +7,30 @@ Free LLM API tiers change every week: models appear, get renamed, start returnin
 ## Today
 
 <!-- radar:start -->
-Last run: 2026-11-22 09:45 UTC. 8 of 20 models answered.
+Last run: 2026-11-23 10:45 UTC. 4 of 20 models answered.
 
 | Provider | Model | Latest | Time | Last 7 runs |
 | --- | --- | --- | ---: | ---: |
 | OpenRouter | `particle-ai/particle-1:free` | failed (HTTP 401) | — | 0/7 |
 | OpenRouter | `recursive/flint-v1.0:free` | failed (HTTP 401) | — | 0/7 |
+| OpenRouter | `baidu/ernie-5.5-flash-preview:free` | failed (HTTP 401) | — | 0/7 |
 | OpenRouter | `nvidia/nemotron-3.5-super-vl:free` | failed (HTTP 401) | — | 0/7 |
 | OpenRouter | `inclusionai/ling-3.2-flash:free` | failed (HTTP 401) | — | 0/7 |
-| OpenRouter | `baidu/ernie-5.5-flash-preview:free` | failed (HTTP 401) | — | 0/7 |
 | OpenRouter | `liquid/lfm-3-1.7b:free` | failed (HTTP 401) | — | 0/7 |
-| Google Gemini API | `gemini-3.1-flash-lite` | answered | 0.5s | 7/7 |
+| Google Gemini API | `gemini-3.1-flash-lite` | answered | 1.2s | 7/7 |
 | Google Gemini API | `gemini-3-flash-preview` | failed (empty reply) | — | 0/7 |
 | Mistral | `codestral-2508` | answered | 0.3s | 7/7 |
-| Mistral | `ministral-8b-latest` | answered | 0.3s | 7/7 |
 | Mistral | `ministral-3b-latest` | answered | 0.3s | 7/7 |
-| Cloudflare Workers AI | `@cf/meta/llama-4-scout-17b-16e-instruct` | failed (HTTP 401) | — | 0/7 |
+| Mistral | `ministral-8b-latest` | answered | 0.3s | 7/7 |
 | Cloudflare Workers AI | `@cf/qwen/qwen2.5-coder-32b-instruct` | failed (HTTP 401) | — | 0/7 |
+| Cloudflare Workers AI | `@cf/meta/llama-4-scout-17b-16e-instruct` | failed (HTTP 401) | — | 0/7 |
 | Cloudflare Workers AI | `@cf/openai/gpt-oss-120b` | failed (HTTP 401) | — | 0/7 |
 | NVIDIA NIM | `nvidia/nemotron-3.5-lightning-30b-a3b` | failed (HTTP 403) | — | 0/7 |
-| onomeo | `gemini-3.1-flash-lite` | answered | 3.9s | 3/7 |
-| onomeo | `gpt-oss-20b` | answered | 4.7s | 3/7 |
-| onomeo | `glm-5.2` | answered | 5.6s | 5/7 |
-| onomeo | `codestral-latest` | answered | 12.1s | 3/7 |
-| onomeo | `deepseek-v4-flash` | failed (HTTP 429) | — | 1/7 |
+| onomeo | `gemini-3.1-flash-lite` | failed (HTTP 503) | — | 3/7 |
+| onomeo | `codestral-latest` | failed (HTTP 503) | — | 3/7 |
+| onomeo | `deepseek-v4-flash` | failed (HTTP 503) | — | 1/7 |
+| onomeo | `gpt-oss-20b` | failed (HTTP 503) | — | 3/7 |
+| onomeo | `glm-5.2` | failed (HTTP 503) | — | 4/7 |
 <!-- radar:end -->
 
 "Latest" is today's run. "Last 7 runs" counts the days the model answered. A model that failed once is not necessarily gone: free tiers often return 429 when they are busy.
